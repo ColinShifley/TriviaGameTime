@@ -1,0 +1,124 @@
+body {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	height: 750px;
+	background-image: url("../images/indybeer.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+#start {
+	background-color: transparent; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 150px auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#start:hover {
+	background-color: #ffbf00;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#subwrapper {
+	height: 700px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.answer-button {
+	background-color: transparent; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.answer-button:hover {
+	background-color: #ffbf00;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#reset {
+	background-color: #fff; /* Green */
+    border: 1px solid black;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#re:hover {
+	background-color: #fff;
+	color: black;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	width: 60%;
+	margin: 0 auto;
+}
+
+h2 {
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	font-size: .9em;
+	margin: 20px;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-size: 1em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#imgbox {
+	height: 500px;
+	position: relative;
+}
+
+#tag {
+	width: 40%;
+	display: block;
+	margin: 75px auto;
+	border:3px solid #000;
+	text-align: center;
+}
+
+#subwrapper #counter {
+	text-align: center;
+	font-size: .9em;
+	color: yellow;
+}
