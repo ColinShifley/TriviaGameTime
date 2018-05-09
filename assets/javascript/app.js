@@ -48,7 +48,7 @@ var game = {
 		game.counter--;
 		$('#counter').html(game.counter);
 
-		if(game.counter<=0){
+		if(game.counter==0){
 			console.log("TIME UP!");
 			game.timeUp();
 		}
@@ -71,7 +71,7 @@ var game = {
 	},
 	timeUp: function(){
 		clearInterval(timer);
-		game.unaswered++;
+		game.unanswered++;
 		$('#subwrapper').html('<h2>out of time</h2>');
 		$('#subwrapper').append('<h3>the correct answer was: '+questions[game.currentQuestion].correctAnswer+'</h3>');
 		if(game.currentQuestion==questions.length-1){
@@ -87,7 +87,7 @@ var game = {
 		var question = questions[game.currentQuestion];
 		$('#subwrapper').append("<h3>Correct: "+game.correct+"</h3>");
 		$('#subwrapper').append("<h3>Incorrect: "+game.incorrect+"</h3>");
-		$('#subwrapper').append("<h3>Unanswered: "+game.unaswered+"</h3>")
+		$('#subwrapper').append("<h3>Unanswered: "+game.unanswered+"</h3>")
 		$('#subwrapper').append('<button id="reset">Reset</button>')
 		
 	},
@@ -139,7 +139,7 @@ var game = {
 		game.incorrect = 0;
 		game.counter = 30;
 		game.correct = 0;
-		game.unaswered = 0;
+		game.unanswered = 0;
 		game.loadQuestion();
 	}
 }});
